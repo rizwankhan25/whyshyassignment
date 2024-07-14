@@ -1747,6 +1747,11 @@ nav {
     padding: .5rem 0;
     font-weight: 500;
 }
+.part9left-row1 h1 span{
+    color: #0258e203;
+    font-weight: 700;
+    -webkit-text-stroke:1px rgba(114, 161, 238, 0.138) ;
+}
 .part9left-row2{
     width: 100%;
     height: 20vh;
