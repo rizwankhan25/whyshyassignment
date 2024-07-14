@@ -369,11 +369,19 @@ nav {
 }
 
 #part_3-boxes1 img {
-    width: 5vw;
-    border-radius: 5px;
-    text-align: center;
+    width: 4vw;
 }
-
+#part_3-boxes2 img {
+    width: 4vw;
+    margin-left: -5vw;
+}
+#part_3-boxes3 img {
+    width: 4vw;
+    margin-left: -5vw;
+}
+#part_3-boxes2 .box p{
+    padding-top: 10px;
+}
 #part_3-boxes2 {
     width: 12.5vw;
     height: 42vh;
@@ -387,6 +395,27 @@ nav {
     height: 20vh;
     background-color: #fff;
     border-radius: 5px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#part_3-boxes2 .box h3{
+    width: 9vw;
+    height: 6vh;
+}
+#part_3-boxes3 .box h3{
+    width: 9vw;
+    height: 8vh;
+}
+#part_3-boxes2 .box p{
+    width: 6vw;
+    height: 4vh;
+    padding-top: 1.8vh;
+    margin-left: -2.5vw;
+}
+#part_3-boxes3 .box p{
+    width: 7vw;
 }
 
 #part_3-boxes3 {
@@ -402,11 +431,10 @@ nav {
     height: 20vh;
     background-color: #fff;
     border-radius: 5px;
+    color: #000;
 }
 
 .box {
-    padding-left: 1.5vw;
-    text-align: left;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -414,8 +442,7 @@ nav {
 }
 
 .box img {
-    width: 3.7vw;
-    text-align: left;
+    width: 3.5vw;
 }
 
 #part_4 {
@@ -549,15 +576,15 @@ nav {
     rotate: -24deg;
 }
 .btn9{
-    bottom: 8%;
-    left: 47%;
-    rotate: 8deg;
+    bottom: 12%;
+    left: 45.5%;
+    rotate: 12deg;
 }
 .btn10{
     background-color: #04b0df;
     color: #fff;
-    bottom: 13%;
-    left: 54%;
+    bottom: 13.5%;
+    left: 53%;
     rotate: 22deg;
 }
 .btns button {
@@ -607,7 +634,8 @@ nav {
 .box p {
     position: absolute;
     margin-left: -2vw;
-    bottom: -2vw;
+    bottom: 2vw;
+    color: #000;
 }
 
 .row-7 {
